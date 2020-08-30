@@ -1,0 +1,78 @@
+.imageGrid{
+    width: 60%;
+    margin: auto;
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr  ;
+    grid-gap: 10px;
+}
+
+
+
+
+
+body{
+    text-align:center;
+    font-family: 'Gayathri', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background: rgba(28, 153, 211, 0.183);
+
+}
+
+.brand{
+    background: rgb(28, 153, 211);
+    padding: 40px 5px;
+    min-height: 250px;
+    margin-bottom: 60px;
+}
+
+.brand h1{
+    color: #ffffff;
+    font-family: 'Lobster', cursive;
+    font-size: 80px;
+    text-shadow: 2px 5px 2px #29262683;
+
+}
+.brand span{
+    color: rgb(255, 217, 0)
+}
+
+.search{
+    width: 60%;
+    margin: auto;
+    display: block;
+    border: none;
+    box-shadow: 4px 2px 5px #29262683;
+    padding: 10px;
+    margin-top: -30px;
+}
+.meme{
+    width: 100%;
+}
+
+
+.img{
+    width: 100%;
+    height: 130px;
+    overflow: hidden;
+}
+.img img{
+    height: auto !important;
+}
+
+@media only screen and (max-width: 1000px) {
+    .imageGrid{
+        width: 85%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .imageGrid{
+        width: 95%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+  }
